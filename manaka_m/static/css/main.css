@@ -1,5 +1,47 @@
-#landing {
-    background-image: url("../img/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg");
-    background-repeat: no-repeat, repeat;
-    height: 100vh;
-  }
+body{
+  line-height: 1.8;
+  color: rgb(192, 204, 216);
+  font-size: 15px;
+  font-family: "Leto", sans-serif;
+}
+
+a{
+  font-weight: 700;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(4, 102, 230);
+}
+
+small{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.header{
+  background: url(../img/sebastian-pandelache-DwivPeNiLXo-unsplash.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img{
+  width: 100%;
+}
+
+section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navbar .nav-link{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link .active{
+  color: rgb(4, 102, 230);
+}
